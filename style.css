@@ -4,33 +4,62 @@ body{
     font-size: 15px;
     
 }
+
+@media screen and (min-width:375px) {
+  
+}
 .header-box{
     text-align: center;
-   padding: 20px;
-   margin: 20px;
+   padding: 10px;
+   
 }
 section{
     padding: 5px;
 }
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.col-1{
+    flex-basis: 28%;
+    position: relative;
+    margin: 5px;
+}
+.col-2{
+    flex-basis: 28%;
+    position: relative;
+    margin: 5px;
+}
+.col-3{
+    flex-basis: 28%;
+    position: relative;
+    margin: 5px;
+}
+
 .box{
   
     text-align: center;
     display: inline-block;
+    overflow: hidden;
    
 border: solid rgb(240, 229, 229) 1px;
-height: 200px;
-width: 25%;
-padding: 10px;
-margin: 20px;
+/* height: 200px;
+width: 25%; */
+padding: 0px 10px;
+margin: 10px;
 border-radius: 5px;
 display: inline-block;
 
 }
 .box img {
-    dis
-    height: 100px;
+    
+    height: 300px;
     width: 600px;
-    text-align: left;
+    margin-left: 35%;
+    margin-top: 30px;
+    
 }
 
 #box-one{
@@ -53,7 +82,7 @@ display: inline-block;
 
 
 .box img{
-    height: 20px;
+    height: 30px;
     width: 50px;
     
 }
